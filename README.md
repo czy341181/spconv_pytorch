@@ -17,28 +17,28 @@ weight = torch.randn((3, 3, 64, 64))
 
 ## Verify
 
-input tensor
+### input tensor
 
 
 tensor([[[[ 0.,  1.,  2.,  3.],
           [ 4.,  5.,  6.,  7.],
           [ 8.,  9., 10., 11.]]]])
 
-mask tensor
+### mask tensor
 
 
 tensor([[[[0, 1, 0, 1],
           [1, 0, 1, 0],
           [0, 1, 0, 1]]]])
           
-normal convolution result (assuming conv weights are all one)
+### normal convolution result (assuming conv weights are all one)
 
 
 tensor([[[[10., 18., 24., 18.],
           [27., 45., 54., 39.],
           [26., 42., 48., 34.]]]])
           
-sparse conv result(mask)
+### sparse conv result(mask)
 
 
 tensor([[[[ 0., 18.,  2., 18.],
