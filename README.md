@@ -16,7 +16,7 @@ weight = torch.randn((3, 3, 64, 64))
 
 
 ## Verify
-'''
+
 input tensor
 
 
@@ -44,7 +44,7 @@ sparse conv result(mask)
 tensor([[[[ 0., 18.,  2., 18.],
           [27.,  5., 54.,  7.],
           [ 8., 42., 10., 34.]]]]
-'''
+
 
 
 
