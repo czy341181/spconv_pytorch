@@ -1,4 +1,4 @@
-## This code is about the sparse convolution operation based on simple pytorch instead of complited CUDA, more functions are coming soon.
+## This code is about the sparse convolution operation based on simple pytorch instead of complicated CUDA, more functions are coming soon.
 
 
 ## Usage
