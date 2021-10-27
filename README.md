@@ -4,15 +4,15 @@
 ## Usage
 1.You need to input a tensor like 
 
-# torch.randn((1, 64, 256, 256))(only support batchsize 1)
+### torch.randn((1, 64, 256, 256))(only support batchsize 1)
 
 2.input a mask like: 
 
-# mask = torch.randint(2, (1, 1, 256, 256))
+### mask = torch.randint(2, (1, 1, 256, 256))
 
 3.a convolution weight like:
 
-# weight = torch.randn((3, 3, 64, 64))
+### weight = torch.randn((3, 3, 64, 64))
 
 
 ## Verify
